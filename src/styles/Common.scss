@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body, div, span, h1, p, ul, li, form, footer, header, nav, section {
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    border: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  button {
+    border: none;
+  
+    &:focus {
+      outline: none;
+      text-decoration: none;
+    }
+  
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  
+  input:focus {
+    outline: none;
+  }
